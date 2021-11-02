@@ -13,12 +13,22 @@ export default function Home() {
   },[])
   return (
     <>
-    <div className="bg-black  h-screen w-full text-center">
+    <div>
       <Head>
         <title>gridHOUSE</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {loading ? <GridLoader color={'rgba(167, 243, 208)'} className="text-center" loading={loading} size={30}/> : <Homapage />}
+      {loading ? 
+      (
+        <div className="bg-black flex justify-center items-center h-screen w-full text-center">
+      <GridLoader color={'rgba(167, 243, 208)'}  loading={loading} size={30}/>
+      </div>
+      ) : 
+       (
+         <div >
+       <Homapage />
+       </div>
+       )}
     </div>
     </>
   )

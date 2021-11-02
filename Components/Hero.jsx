@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <header className="p-0 m-0 bg-transparent relative w-full">
            <div className={heroStyles.brand_bg}>
-                 <div className="flex justify-between items-center fixed top-0 w-full  z-20">
+                 <div className="flex justify-between items-center fixed top-0 w-full z-20" style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
                     <div className="flex items-center w-1/2">
                        <img src='/images/logoD.png' alt="gridhouse-logo" className="ml-4 mt-9 mb-7 cursor-pointer"/>
                        <div className="items-center mt-9 ml-16 mb-7 hidden md:flex">
@@ -32,19 +32,19 @@ const Hero = () => {
                  
                  {/* hero */}
                  {/* ml-28 mt-36 */}
-                 <div className="hidden md:block w-1/2 absolute top-56 left-32">
+                 <div className="hidden md:block w-1/2 absolute top-56 left-60">
                      <h1 className="text-white font-poppins text-xl tracking-wider mb-6 md:text-7xl w-full">I'm <span className="text-green-200 border-2 border-gray-200 p-2">SAMUEL</span></h1>
                      <p className="text-white font-poppins tracking-wider" className={heroStyles.hero_info}>Front End Web Developer and UI/UX designer.</p>
                  </div>
                  {/* mobile */}
                  {/* mt-32 */}
-                 <div className=" absolute top-64 md:hidden">
+                 <div className=" absolute top-64 left-20 md:hidden">
                      <h1 className="text-white font-poppins text-3xl tracking-wider mb-6">I'm <span className="text-green-200 border-2 border-gray-200 p-2">SAMUEL</span></h1>
                      <p className="text-white font-poppins tracking-wider text-base w-9/12 m-auto">Front End Web Developer and UI/UX designer.</p>
                  </div>
                  {/* hero icons */}
                  {/* ml-64 mt-2 */}
-                 <div className="hidden md:flex items-center absolute top-96 left-72">
+                 <div className="hidden md:flex items-center absolute top-96 left-96">
                    <GitHubIcon style={{color:'white', fontSize:'1.7rem'}} className="cursor-pointer mr-2 hover:scale-110"/>
                    <LinkedInIcon style={{color:'white', fontSize:'1.7rem'}} className="cursor-pointer mr-2 hover:scale-110"/>
                    <InstagramIcon style={{color:'white', fontSize:'1.7rem'}} className="cursor-pointer mr-2 hover:scale-110"/>
