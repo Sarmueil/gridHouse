@@ -1,8 +1,8 @@
 import Head from 'next/head';
-import Hero from '../Components/Hero';
 import GridLoader from "react-spinners/GridLoader";
 import React, {useState, useEffect} from 'react'
-import About from '../Components/About';
+import Homapage from '../Components/Homapage';
+
 export default function Home() {
   const [loading, setLoading ] = useState(false)
   useEffect(()=>{
@@ -13,14 +13,13 @@ export default function Home() {
   },[])
   return (
     <>
-    <div className="bg-black flex justify-center items-center h-screen w-full text-center">
+    <div className="bg-black  h-screen w-full text-center">
       <Head>
         <title>gridHOUSE</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {loading ? <GridLoader color={'rgba(167, 243, 208)'} loading={loading} size={30}/> : <Hero /> }
+      {loading ? <GridLoader color={'rgba(167, 243, 208)'} className="text-center" loading={loading} size={30}/> : <Homapage />}
     </div>
-    <About />
     </>
   )
 }
