@@ -11,7 +11,7 @@ const About = () => {
               {/* about_text */}
               <div className="flex-1 w-2/3 ml-8 bg-black p-16 self-start z-20">
                   <p className="text-white font-poppins text-2xl mb-5 tracking-wide">Hello. I'm Samuel Adedoyin Adebisi and I'm a multi-talented
-                    human. Most of my time I design and build responsive, production-ready user interfaces.</p>
+                    human. Most of my time I design and build responsive, production-ready user interfaces and amazing websites.</p>
                    <p className="text-white font-roboto text-base tracking-wide">Since beginning my journey as a Web Developer, nearly 2 years ago, I've done remote work for companies, consulted for startups, 
                    and collaborated with talented people to create the best user experience for both business and consumer use. 
                    I'm quietly confident,naturally curious, and perpetually working on improving my skills one project at a time.</p>

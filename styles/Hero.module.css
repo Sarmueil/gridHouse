@@ -24,3 +24,42 @@
         color:#ffffff;
     }
 }
+/* .image{
+    transition: all 10s ease;
+}
+.image:hover{
+    transform: translateY(-100%);
+} */
+.p{
+    width: 100%;
+    height: 50vh;
+    margin: 20px 10px;
+    border: 2px solid rgb(243, 242, 242);
+    border-radius: 10px 10px 10px 10px;
+    overflow: hidden;
+  }
+  
+  .pbrowser {
+    height: 25px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+  }
+  
+  .pcircle {
+    border-radius: 50%;
+    margin: 3px;
+    
+  }
+  
+  .pimg {
+    width: 100%;
+    transition: all 10s ease;
+  }
+  
+  .p:hover .pimg {
+    transform: translateY(-100%);
+  }
+  

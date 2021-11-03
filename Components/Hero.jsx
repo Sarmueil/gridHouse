@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import TwitterIcon from '@mui/icons-material/Twitter';   
 
 const Hero = () => {
     return (
@@ -34,13 +34,13 @@ const Hero = () => {
                  {/* ml-28 mt-36 */}
                  <div className="hidden md:block w-1/2 absolute top-56 left-60">
                      <h1 className="text-white font-poppins text-xl tracking-wider mb-6 md:text-7xl w-full">I'm <span className="text-green-200 border-2 border-gray-200 p-2">SAMUEL</span></h1>
-                     <p className="text-white font-poppins tracking-wider" className={heroStyles.hero_info}>Front End Web Developer and UI/UX designer.</p>
+                     <p className="text-white font-poppins tracking-wider" className={heroStyles.hero_info}>Software Developer <span className="text-green-200">&</span> UI/UX designer.</p>
                  </div>
                  {/* mobile */}
                  {/* mt-32 */}
                  <div className=" absolute top-64 left-20 md:hidden">
                      <h1 className="text-white font-poppins text-3xl tracking-wider mb-6">I'm <span className="text-green-200 border-2 border-gray-200 p-2">SAMUEL</span></h1>
-                     <p className="text-white font-poppins tracking-wider text-base w-9/12 m-auto">Front End Web Developer and UI/UX designer.</p>
+                     <p className="text-white font-poppins tracking-wider text-base w-9/12 m-auto">Software Developer <span className="text-green-200">&</span>UI/UX designer.</p>
                  </div>
                  {/* hero icons */}
                  {/* ml-64 mt-2 */}
