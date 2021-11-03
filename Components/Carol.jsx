@@ -16,7 +16,7 @@ const Carol = () => {
           </a>
         </div>
         <a href='#' target="_blank" rel="noreferrer">
-          <img src='/images/demo.png' alt="" className={heroStyles.pimg} />
+          <img src='/images/snipe.png' alt="" className={heroStyles.pimg} />
         </a>
       </div>
     )
