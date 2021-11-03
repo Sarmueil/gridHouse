@@ -11,7 +11,7 @@ const Hero = () => {
     return (
         <header className="p-0 m-0 bg-transparent relative w-full">
            <div className={heroStyles.brand_bg}>
-                 <div className="flex justify-between items-center fixed top-0 w-full z-20" style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
+                 <div className="flex justify-between items-center fixed top-0 w-full z-98" style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
                     <div className="flex items-center w-1/2">
                        <img src='/images/logoD.png' alt="gridhouse-logo" className="ml-4 mt-9 mb-7 cursor-pointer"/>
                        <div className="items-center mt-9 ml-16 mb-7 hidden md:flex">
@@ -28,7 +28,7 @@ const Hero = () => {
                         <h3 className="text-white font-poppins text-base tracking-wide mr-5 p-2 border-2 border-gray-200 ">Resume</h3>
                         <h3 className="text-black font-poppins text-base tracking-wide bg-green-200 p-2 transition-all duration-500 hover:bg-transparent hover:border-gray-200 hover:hover:text-white ">Hire Me</h3>
                     </div>
-                 </div>
+                 </div>   
                  
                  {/* hero */}
                  {/* ml-28 mt-36 */}

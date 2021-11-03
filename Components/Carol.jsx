@@ -14,7 +14,6 @@ const Carol = () => {
           <a href='#' target="_blank" rel="noreferrer">
           <WebIcon style={{color:'black', fontSize:'1rem'}} className="cursor-pointer hover:scale-110" className={heroStyles.pcircle}/>
           </a>
-          <div className={heroStyles.pcircle}></div>
         </div>
         <a href='#' target="_blank" rel="noreferrer">
           <img src='/images/demo.png' alt="" className={heroStyles.pimg} />

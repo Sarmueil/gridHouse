@@ -17,6 +17,11 @@ const Homapage = () => {
         <div>
             <Hero />
             <About />
+            {/* border-b-2 border-green-300 */}
+            <div className="mt-10 mb-10 w-full flex justify-between items-center">
+               <h2 className="text-black font-poppins text-4xl ml-10 tracking-wide cursor-pointer pb-2 w-20 border-b-4 border-green-300">Projects</h2>
+               <h3 className="text-black font-poppins text-base mr-10 tracking-wide p-2 bg-green-200  cursor-pointer">Explore</h3> 
+            </div>
             <Carousel  breakPoints={breakPoints} enableAutoPlay={true} autoPlaySpeed={4000}>
                <Carol />
                <Carol />
