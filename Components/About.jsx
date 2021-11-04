@@ -4,7 +4,7 @@ const About = () => {
     return (
         <div className="h-screen w-full bg-white z-20">
             {/* about-header */}
-            <div className="mt-10 ml-10 mb-10 border-b-4 border-green-300 w-20">
+            <div className="mt-10 ml-10 mb-10 border-b-4 border-green-300 w-12">
                <h2 className="text-black font-poppins text-4xl tracking-wide mr-6 cursor-pointer mb-1">About</h2> 
             </div>
             <div className="flex justify-center items-center w-full">

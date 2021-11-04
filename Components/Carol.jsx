@@ -3,8 +3,28 @@ import heroStyles from '../styles/Hero.module.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
 
+// const projectImg = [
+//   {
+//     image: '/images/snipe.png'
+//   },
+//   {
+//     image:'/images/decamovies.png'
+//   },
+//   {
+//     image:'/images/snipe.png'
+//   },
+//   {
+//     image:'/images/decamovies.png'
+//   },
+//   {
+//     image:'/images/snipe.png'
+//   },
+//   {
+//     image:'/images/decamovies.png'
+//   }
+// ]
 
-const Carol = () => {
+const Carol = ({ projectImg }) => {
     return (
         <div className={heroStyles.p}>
         <div className={heroStyles.pbrowser}>
@@ -14,10 +34,10 @@ const Carol = () => {
           <a href='#' target="_blank" rel="noreferrer">
           <WebIcon style={{color:'black', fontSize:'1rem'}} className="cursor-pointer hover:scale-110" className={heroStyles.pcircle}/>
           </a>
-        </div>
-        <a href='#' target="_blank" rel="noreferrer">
-          <img src='/images/snipe.png' alt="" className={heroStyles.pimg} />
-        </a>
+        </div>   
+            <a href='#' target="_blank" rel="noreferrer">
+              <img src={projectImg.image} alt="" className={heroStyles.pimg} />
+            </a>
       </div>
     )
 }
